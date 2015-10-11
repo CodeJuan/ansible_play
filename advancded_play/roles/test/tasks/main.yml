@@ -1,4 +1,7 @@
 ---
-- name: ping and restart iptables
-  ping:  
+- name: ping
+  ping:   
+
+- name: template iptables
+  template: src=haha dest=/tmp/haha
   notify: restart test
