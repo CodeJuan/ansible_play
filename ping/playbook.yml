@@ -1,0 +1,5 @@
+---
+- hosts: g530
+  tasks:
+  - name: ping
+    ping:  
