@@ -1,0 +1,4 @@
+---
+- name: ping and restart iptables
+  ping:  
+  notify: restart test

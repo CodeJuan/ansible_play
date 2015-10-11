@@ -1,0 +1,6 @@
+---
+- name: role_handler
+  hosts: g530
+  
+  roles:
+  - test
